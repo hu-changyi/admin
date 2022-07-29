@@ -34,9 +34,9 @@ class Demo extends Api
      * @ApiReturnParams   (name="msg", type="string", required=true, sample="返回成功")
      * @ApiReturnParams   (name="data", type="object", sample="{'user_id':'int','user_name':'string','profile':{'email':'string','age':'integer'}}", description="扩展数据返回")
      * @ApiReturn   ({
-         'code':'1',
-         'msg':'返回成功'
-        })
+     *     'code':'1',
+     *     'msg':'返回成功'
+     *    })
      */
     public function test()
     {
